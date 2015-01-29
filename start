@@ -1,5 +1,6 @@
 #!/bin/bash
 
+chown -R tomcat7:tomcat7 /var/log/tomcat7
 /etc/init.d/tomcat7 start
 
 # The container will run as long as the script is running, that's why
